@@ -1227,7 +1227,7 @@ figcaption {
 }
 
 .nav_link.w--current {
-  color: var(--green);
+  color: var(--white);
 }
 
 .nav_link.is-muted {
