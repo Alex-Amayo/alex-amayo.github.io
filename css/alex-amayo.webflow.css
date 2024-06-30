@@ -2696,7 +2696,7 @@ figcaption {
 
   .padding-section-large {
     padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-bottom: 0;
   }
 
   .fs-styleguide_3-col {
@@ -2742,6 +2742,12 @@ figcaption {
 
   .course_content {
     margin-top: 0;
+  }
+
+  .message_bottom {
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
   }
 
   .background_image {
@@ -2958,6 +2964,10 @@ figcaption {
     padding-bottom: 0;
   }
 
+  .projects {
+    grid-template-columns: 1fr;
+  }
+
   .grid-2 {
     grid-template-columns: 1fr 1fr;
   }
@@ -3165,7 +3175,7 @@ figcaption {
 
   .padding-section-large {
     padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-bottom: 0;
   }
 
   .text-size-large {
@@ -3315,6 +3325,10 @@ figcaption {
     padding-top: 0;
     padding-bottom: 0;
   }
+
+  .projects {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -3404,6 +3418,10 @@ figcaption {
     line-height: 1.2;
   }
 
+  .padding-section-large {
+    padding-bottom: 0;
+  }
+
   .button.is-course {
     max-width: none;
   }
@@ -3456,6 +3474,10 @@ figcaption {
   .message_block {
     min-width: auto;
     max-width: none;
+  }
+
+  .message_bottom {
+    height: auto;
   }
 
   .meta-details_component {
