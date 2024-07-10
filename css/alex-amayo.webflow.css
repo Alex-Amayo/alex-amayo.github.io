@@ -1031,6 +1031,7 @@ figcaption {
   color: var(--white);
   cursor: pointer;
   width: 100%;
+  margin-bottom: 10px;
 }
 
 .button.is-navbar4-button {
@@ -1465,13 +1466,14 @@ figcaption {
 
 .message_image-wrapper {
   width: 100%;
-  height: 100%;
+  height: auto;
   position: relative;
 }
 
 .message_image {
   width: 100%;
-  height: 100%;
+  height: auto;
+  min-height: 250px;
 }
 
 .message_bottom {
@@ -1480,7 +1482,7 @@ figcaption {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  height: auto;
+  height: 100%;
   padding: 1.5rem;
   display: flex;
 }
